@@ -39,13 +39,13 @@ Analysis requested by Reviewers
 
 ## Resources 
 1. For researchers wanting to incoprorate our end results into their pipelines:
-    - Normalized anchor scores are available in supplemental materials of original paper and also available under Datasets in this github repository.
-    - Our complied seed dataset (containing peptide sequences, hla allele and all 8 binding algorithm outputs) are also available under Datasets.
+    - Normalized anchor scores are available in supplemental materials of original paper and also available under [Datasets](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Datasets) in this github repository.
+    - Our complied seed dataset (containing peptide sequences, hla allele and all 8 binding algorithm outputs) are also available under [Datasets](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Datasets).
 2. For researchers looking to expand this database for particular HLA alleles, we recommend the following steps:
-    - Identify strong binding peptides for the HLA allele(s) and peptide length(s) you are query about.
+    - Identify strong binding peptides for the HLA allele(s) and peptide length(s) you are querying about.
     - Generate a dictionary of peptides where each position is mutated to all possible amino acids.
     - Use that dictionary to generate a FASTA file in the format required by pVACbind (www.pvactools.org).
     - Run pvacbind in parallel across different HLA allele(s) and peptide length(s).
         - Note that you will likely have to run each combination in a separate command (we provide the scripts we used on our own cluster for your adaptation).
-    - Assemble prediction results and calculate the anchor scores for each position of each peptide (please refer to helper functions in Anchor Position Calculation).
+    - Assemble prediction results and calculate the anchor scores for each position of each peptide (please refer to helper functions in [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor%20Position%20Calculation.ipynb)).
     - This process can be done on a individual peptide-HLA combination basis but also you can aggregate and average across multiple peptides (for the same length for the same HLA allele )for an overall score.
