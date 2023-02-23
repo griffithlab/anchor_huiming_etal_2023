@@ -12,7 +12,7 @@ Computational Prediction of Anchor locations
 - Generating FASTA files for input into pVACbind
     - [fasta_generator.py](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/fasta_generator.py)
 - Running pVACbind in parallel
-    - [pvacbind_run.sh](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Shell Scripts/pvacbind_run.sh)
+    - [pvacbind_run.sh](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Shell%20Scripts/pvacbind_run.sh)
 - Collecting pVACbind results and calculating anchor probabilities
     - [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor%20Position%20Calculation.ipynb)
 - Summarizing anchor trends using hierarchical clustering and heatmaps
@@ -59,6 +59,6 @@ Analysis requested by Reviewers
     - Generate a dictionary of peptides where each position is mutated to all possible amino acids.
     - Use that dictionary to generate a FASTA file in the format required by pVACbind (www.pvactools.org).
     - Run pvacbind in parallel across different HLA allele(s) and peptide length(s).
-        - Note that you will likely have to run each combination in a separate command (we provide the scripts we used on our own cluster for your adaptation).
+        - Note that you will likely have to run each combination in a separate command (we provide the [scripts](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Shell%20Scripts/) we used on our own cluster for your adaptation).
     - Assemble prediction results and calculate the anchor scores for each position of each peptide (please refer to helper functions in [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor%20Position%20Calculation.ipynb)).
     - This process can be done on a individual peptide-HLA combination basis but also you can aggregate and average across multiple peptides (for the same length for the same HLA allele )for an overall score.
