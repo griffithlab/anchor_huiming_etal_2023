@@ -5,18 +5,18 @@ Code for computational workflows and analyses relating to "Computational predict
 ## Table of Contents
 
 ### Computational Prediction of Anchor locations
-- Combining all input data and selecting HLA alleles and their corresponding strong binding peptides
-    - [Initial_peptide_database.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Initial_peptide_database.ipynb)
-- Saturation analysis using HLA-A*02:01
-    - [Saturation_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Saturation_analysis.ipynb)
-- Generating FASTA files for input into pVACbind
-    - [fasta_generator.py](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/fasta_generator.py)
-- Running pVACbind in parallel
-    - [pvacbind_run.sh](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Shell%20Scripts/pvacbind_run.sh)
-- Collecting pVACbind results and calculating anchor probabilities
-    - [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor%20Position%20Calculation.ipynb)
-- Summarizing anchor trends using hierarchical clustering and heatmaps
-    - [Anchor_cluster_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor_cluster_analysis.ipynb)
+- [Initial_peptide_database.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Computational_prediction_of_anchor_locations/Initial_peptide_database.ipynb)
+    - Combining all input data and selecting HLA alleles and their corresponding strong binding peptides
+- [Saturation_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Computational_prediction_of_anchor_locations/Saturation_analysis.ipynb)
+    - Saturation analysis using HLA-A*02:01
+- [fasta_generator.py](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Computational_prediction_of_anchor_locations/fasta_generator.py)
+    - Generating FASTA files for input into pVACbind
+- [pvacbind_run.sh](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Shell%20Scripts/pvacbind_run.sh)
+    - Running pVACbind in parallel
+- [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Computational_prediction_of_anchor_locations/Anchor%20Position%20Calculation.ipynb)
+    - Collecting pVACbind results and calculating anchor probabilities
+- [Anchor_cluster_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Computational_prediction_of_anchor_locations/Anchor_cluster_analysis.ipynb)
+    - Summarizing anchor trends using hierarchical clustering and heatmaps
 
 ### Orthogonal validation with crystallography structures
 - Mdtraj package to calculate distance and SASA
