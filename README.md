@@ -63,3 +63,11 @@ Code for computational workflows and analyses relating to "Computational predict
         - Note that you will likely have to run each combination in a separate command (we provide the [scripts](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Shell%20Scripts/) we used on our own cluster for your adaptation).
     - Assemble prediction results and calculate the anchor scores for each position of each peptide (please refer to helper functions in [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Computational_prediction_of_anchor_locations/Anchor%20Position%20Calculation.ipynb)).
     - This process can be done on a individual peptide-HLA combination basis but also you can aggregate and average across multiple peptides (for the same length for the same HLA allele )for an overall score.
+
+## License
+
+The project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Stable release with DOI
+
+[![DOI](https://zenodo.org/badge/604686470.svg)](https://zenodo.org/badge/latestdoi/604686470)
