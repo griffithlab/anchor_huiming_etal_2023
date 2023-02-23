@@ -5,12 +5,14 @@ Code for computational workflows and analyses relating to "Computational predict
 ## Table of Contents
 
 Computational Prediction of Anchor locations
-- Combining all input data
-- Selecting HLA alleles and their corresponding strong binding peptides
+- Combining all input data and selecting HLA alleles and their corresponding strong binding peptides
+    - [Initial_peptide_database.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Initial_peptide_database.ipynb)
 - Saturation analysis using HLA-A*02:01
+    - [Saturation_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Saturation_analysis.ipynb)
 - Generating FASTA files for input into pVACbind
 - Running pVACbind in parallel
 - Collecting pVACbind results and calculating anchor probabilities
+    - [Anchor Position Calculation.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor%20Position%20Calculation.ipynb)
 
 Orthogonal validation with crystallography structures
 - Mdtraj package to calculate distance and SASA
