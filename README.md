@@ -4,7 +4,7 @@ Code for computational workflows and analyses relating to "Computational predict
 
 ## Table of Contents
 
-Computational Prediction of Anchor locations
+### Computational Prediction of Anchor locations
 - Combining all input data and selecting HLA alleles and their corresponding strong binding peptides
     - [Initial_peptide_database.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Initial_peptide_database.ipynb)
 - Saturation analysis using HLA-A*02:01
@@ -18,13 +18,13 @@ Computational Prediction of Anchor locations
 - Summarizing anchor trends using hierarchical clustering and heatmaps
     - [Anchor_cluster_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Anchor_cluster_analysis.ipynb)
 
-Orthogonal validation with crystallography structures
+### Orthogonal validation with crystallography structures
 - Mdtraj package to calculate distance and SASA
 - Comparison with our own prediction data
 - [Validation_pMHC_crystallography_analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Validation_pMHC_crystallography_analysis.ipynb)
 - [TCR validation data analysis.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/TCR%20validation%20data%20analysis.ipynb)
 
-Evaluating Anchor Impact
+### Evaluating Anchor Impact
 - Selection of a balanced HLA population from remaining TCGA samples
 - Generating FASTA files and running pVACbind
 - Objective determination of anchor locations
@@ -33,7 +33,7 @@ Evaluating Anchor Impact
 - Repeating analysis using different binding cutoffs and inclusion criteria
 - [Impact analysis using different binding cutoffs.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Impact%20analysis%20using%20different%20binding%20cutoffs.ipynb)
 
-Validation peptide selection and analysis
+### Validation peptide selection and analysis
 - Anchor calculation performed for all good binding candidates 
 - Selecting peptides for experimental validation
 - Deciding mutations and positions
@@ -41,7 +41,7 @@ Validation peptide selection and analysis
 - Evaluation of experimental results
     - [Validation Plots.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Validation%20Plots.ipynb)
 
-Analysis requested by Reviewers
+### Additional analyses
 - Evaluating seed peptide source by generating random peptide sequences from 3 different sources and repeating analysis
     - [Comparison between seed dataset and other random peptide sets.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Comparison%20between%20seed%20dataset%20and%20other%20random%20peptide%20sets.ipynb)
 - Bias analysis for HLA allele specific anchor patterns
@@ -50,7 +50,7 @@ Analysis requested by Reviewers
     - [Reviewer response - Scenario count.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Reviewer%20response%20-%20Scenario%20count.ipynb)
 
 
-## Resources 
+### Resources 
 1. For researchers wanting to incoprorate our end results into their pipelines:
     - Normalized anchor scores are available in supplemental materials of original paper and also available under [Datasets](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Datasets) in this github repository.
     - Our complied seed dataset (containing peptide sequences, hla allele and all 8 binding algorithm outputs) are also available under [Datasets](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Datasets).
