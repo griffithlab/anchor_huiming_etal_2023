@@ -26,16 +26,16 @@ Code for computational workflows and analyses relating to "Computational predict
     - Repeat analysis with TCR-peptide-MHC pdb structures
 
 ### Evaluating Anchor Impact
-- Selection of a balanced HLA population from remaining TCGA samples
-- Generating FASTA files and running pVACbind
-- Objective determination of anchor locations
-- Analyzing the entire cohort using three different filters (no anchor, conventional anchor and allele-specific anchor)
 - [Impact Analysis TCGA samples.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Orthogonal_validation_with_crystallography_structures/Impact%20Analysis%20TCGA%20samples.ipynb)
-- Repeating analysis using different binding cutoffs and inclusion criteria
+    - Selection of a balanced HLA population from remaining TCGA samples
+    - Generating FASTA files and running pVACbind
+    - Objective determination of anchor locations
+    - Analyzing the entire cohort using three different filters (no anchor, conventional anchor and allele-specific anchor)
 - [Impact analysis using different binding cutoffs.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Orthogonal_validation_with_crystallography_structures/Impact%20analysis%20using%20different%20binding%20cutoffs.ipynb)
+    - Repeating analysis using different binding cutoffs and inclusion criteria
 
 ### Validation peptide selection and analysis
--[Generation of experimental validation candidates.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Experimental_validation/Generation%20of%20experimental%20validation%20candidates.ipynb)
+- [Generation of experimental validation candidates.ipynb](https://github.com/griffithlab/anchor_huiming_etal_2023/blob/master/Python%20Scripts/Experimental_validation/Generation%20of%20experimental%20validation%20candidates.ipynb)
     - Anchor calculation performed for all good binding candidates 
     - Selecting peptides for experimental validation
     - Deciding mutations and positions
